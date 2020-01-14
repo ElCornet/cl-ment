@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -11,10 +11,92 @@
     <title>LaMoulahDio</title>
   </head>
   <body>
-    <!--corps-->
-    <div>
-        
+
+    <!-- Banner -->
+	<div class="jumbotron jumbotron-fluid" style="margin-bottom: 0px; padding-bottom: 25px; background-color: #85C1E9;">
+
+        <div class="container">
+          <h1 class="display-4">LaMoulahDio</h1>
+          <p class="lead">Tout pour la culture des moules.</p>    
+          
+        </div>
+      </div>
+      
+      <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light pl-auto" style="margin-bottom: 25px;">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" area-disabled="true">Disabled</a>
+          </div>
+        </div>
+      </nav>
+
+    <!--body-->
+    <div class="mx-auto border border-light rounded-lg shadow p-3 mb-5" style="background-color: #85C1E9 ; max-width: 900px;">
+        <label>Image :</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+            </div>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+              <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+            </div>
+          </div>
+        <form>
+            <div class="form-group">
+                <label>Nom du produit :</label>
+                <input class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Description du produit :</label>
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Label du produit :</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Label Moulle</option>
+                  <option>Label Fille</option>
+                  <option>Label Salope</option>
+                  <option>Label Moulah</option>
+                </select>
+              </div>
+            <div class="form-group">
+                <label>Prix :</label>
+                <div class="form-row">
+                    <div class="col-7">
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>€</option>
+                            <option>$</option>
+                            <option>£</option>
+                          </select>
+                    </div>
+                    <div class="col">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>/ Killograme</option>
+                            <option>/ Litre</option>
+                            <option>/ L'unité</option>
+                          </select>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
+    <!--end body-->
+
+    <!-- footer -->
+    <div class="container bg-light" style="margin-bottom: 10px;">
+    <h1>Hello World</h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
