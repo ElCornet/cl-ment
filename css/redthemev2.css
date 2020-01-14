@@ -1,0 +1,21 @@
+.jumbotron {
+	margin-bottom: 0px; 
+	padding-bottom: 25px; 
+	background-color: #85C1E9;
+}
+
+.navbar {
+	margin-bottom: 25px;
+}
+
+.redtheme-body {
+	background-color: #85C1E9 ; max-width: 900px;
+}
+
+body {
+	background-color:#D5DBDB;
+}
+
+.redtheme-foot {
+	margin-bottom: 10px;
+}
